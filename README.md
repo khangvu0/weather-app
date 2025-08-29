@@ -35,6 +35,11 @@ This project was part of the following sections of the course:
 
 ---
 
+## Screenshot
+![Screenshot 1](/img/preview.png)
+
+---
+
 ## Setup & Installation
 1. Clone this repository:
    ```bash
