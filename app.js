@@ -9,17 +9,18 @@ if (!address){
 }
 else {
     // Calls geocode function from geocode.js
-    geocode(address, (error, data) => {
+    // ={} for when an error occurs, can't destructure off undefined 
+    geocode(address, (error, { latitude, longitude, location } = {}) => {
     if(error) {
         return console.log(error)
     }
         // Calls forecast function from forecast.js
-        forecast(data.latitude, data.longitude, (error, forecastData) => {
+        forecast(latitude, longitude, (error, forecastData) => {
             if(error) {
                 return console.log(error);
             }
     
-            console.log(data.location);
+            console.log(location);
             console.log(forecastData);
         })
     })
