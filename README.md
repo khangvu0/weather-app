@@ -42,13 +42,16 @@ This project was part of the following sections of the course:
    cd weather-app
 
 2. Install dependencies:
-npm install
+    ```bash
+    npm install
 
 
 3. Insert your API keys in geocode.js and forecast.js
 
 4. Run the development server:
-npm start
+    ```bash
+    npm start
 
 5. Open your browser at:
-http://localhost:3000
+    ```bash
+    http://localhost:3000
