@@ -45,7 +45,6 @@ This project was part of the following sections of the course:
     ```bash
     npm install
 
-
 3. Insert your API keys in geocode.js and forecast.js
 
 4. Run the development server:
