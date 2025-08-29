@@ -43,7 +43,7 @@ This project was part of the following sections of the course:
 ## Setup & Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone git@github.com:khangvu0/weather-app.git
    cd weather-app
 
 2. Install dependencies:
